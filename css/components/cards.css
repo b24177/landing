@@ -1,6 +1,6 @@
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 
@@ -16,6 +16,10 @@
 
 .card img {
   width: 150px;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
 }
 
 .card p {
